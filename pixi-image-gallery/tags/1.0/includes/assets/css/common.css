@@ -1,0 +1,121 @@
+
+/*  Main item */
+
+
+.pixi-gallery-wrapper a{
+  text-decoration: none;
+  transition: all 0.5s ease 0s;
+  box-shadow: none;
+}
+
+.pixi-gallery-wrapper {
+  margin-right: -6px;
+}
+.pixi-gallery-wrapper .pixi-inner-item {
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 -3px;
+} 
+
+.pixi-gallery-wrapper .gallery-columns-1 .pixi-inner-item {
+  max-width: 100%;
+}
+
+.pixi-gallery-wrapper .gallery-columns-2 .pixi-inner-item {
+  max-width: 50%;
+}
+
+.pixi-gallery-wrapper .gallery-columns-3 .pixi-inner-item {
+  max-width: 33.33%;
+}
+
+.pixi-gallery-wrapper .gallery-columns-4 .pixi-inner-item {
+  max-width: 25%;
+}
+
+.pixi-gallery-wrapper .gallery-columns-5 .pixi-inner-item {
+  max-width: 20%;
+}
+
+.pixi-gallery-wrapper .gallery-columns-6 .pixi-inner-item {
+  max-width: 16.666%;
+}
+
+.pixi-gallery-wrapper .pixi-inner-item img {
+  margin: 0 auto;
+}
+
+.pixi-gallery-wrapper img {
+  display: block;
+} 
+
+.pixi-gallery-wrapper .pixi-inner-item{
+  overflow: hidden;
+}
+
+.pixi-gallery-wrapper .pixi-inner-item img{
+  transition: all .4s ease 0s;
+}
+
+.pixi-gallery-wrapper .pixi-inner-item:hover .zoomIn img{
+  transform: scale(1.03);
+}
+
+.pixi-gallery-wrapper .pixi-inner-item:hover .shrink img{
+  transform: scale(.95);
+}
+.pixi-gallery-wrapper .pixi-inner-item:hover .zoomLeft img{
+  transform: scale(1.03) translateX(12px);
+}
+
+.pixi-portfolio .pixi-filter {
+	margin-bottom: 50px;
+}
+
+
+.pixi-portfolio .pixi-filter button {
+	border: none;
+	outline: none;
+	margin: 0;
+	padding: 4px 20px;
+	font-size: 16px;
+	color: #5e5c69;
+	position: relative;
+	background: none;
+	cursor: pointer;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+
+
+.pixi-portfolio .pixi-filter button.active{
+  background: #465fe9;
+  color: #ffffff;
+  transition: all .4s ease 0s;
+}
+
+.pixi-portfolio .pixi-grid {
+	overflow: hidden;
+}
+
+.pixi-portfolio .pixi-filter button{
+  transition: all .4s ease 0s;
+}
+.pixi-inner-item .inner-content{
+  padding-top: 20px;
+}
+.pixi-inner-item .inner-content h3{
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #000;
+  text-transform: capitalize;
+}
+
+.pixi-inner-item .inner-content p{
+  font-size: 16px;
+  color: #666;
+  text-transform: capitalize;
+}
